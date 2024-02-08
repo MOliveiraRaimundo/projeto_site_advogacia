@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advogacia - Júlio Motta</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav id="navbar">
+            <div id="logo">
+                <img src="img/logo.png" alt="">
+            </div>
+            <ul id="navbar-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#perfil-membros">Membros</a></li>
+                <li><a href="#atuacao-container">Área de atuação</a></li>
+                <li><a href="#contato-form">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="main-banner">
+            <p> A justiça é uma virtude e, enquanto tal, serve ao direito.</p>
+            <span>Marcus Tulius Cíciro</span>
+        </div>
+        <section id="sobre">
+            <h2>Sobre Nós</h2>
+            <div class="sublinhado">
+                <div class="line"></div>
+            </div>
+            <div class="equipe">
+                <div id="perfil-equipe">
+                    <img src="img/equipe.jpg" alt="">
+                </div>
+
+                <p>
+                    A Motta Advocacia e Assessoria Jurídica é um escritório de advocacia 
+                    que prima por serviços jurídicos de alta qualidade, atuando de forma criteriosa na defesa de seus clientes.
+                    Seu corpo de advogados busca não somente soluções momentâneas, mas, sobretudo, a resolução plena dos 
+                    problemas e desafios propostos. Através da assessoria jurídica da Cintia Lima Advocacia e Assessoria
+                    Jurídica a pessoalidade no atendimento, bem como a atenção a cada caso, são uma constante.
+                    A reputação e o reconhecimento Cintia Lima tornam-se uma verdadeira consequência dos resultados alcançados,
+                    decorrência natural da intensidade do envolvimento nas causas de seus clientes e a singularidade e dedicação empregadas em cada caso.
+                </p>
+            </div>
+        </section>
+
+        <section class="perfil-membros">
+            <h2 id="perfil-membros">Perfil dos Membros</h2>
+            <div class="traco">
+                <div id="linha"></div>
+            </div>
+            <div class="perfil">
+                <div id="perfil-julio">
+                    <img src="img/foto-julio.jpg" alt="Perfil Julio">
+                </div>
+                <div id="description">
+                    <p>
+                        <span>Julio Motta</span><br>
+                        Advogado com mais de 10 anos de experiência na área trabalhista e Penal em um dos principais escritórios de Cruzeiro-SP.
+                        Sou um profissional proativo, com excelente escrita e oratória. 
+                        Conheço a fundo as mudanças trazidas pela Reformas Penais. Procuro vaga em escritório de referência na área trabalhista.
+                    </p>
+                </div>
+            </div>
+            <div class="perfil">
+                <div id="perfil-advogada">
+                    <img src="img/advgada-img.jpg" alt="Perfil Advogada">
+                </div>
+                <div id="description">
+                    <p>
+                        <span>Glaucea</span><br>
+                        Advogada com mais de 5 anos de experiência na área administrativas em um dos principais escritórios de Cruzeiro-SP.
+                        Sou uma profissional proativo, com excelente escrita e oratória. 
+                        Conheço a fundo as mudanças trazidas pela Reforma administrativas. Procuro vaga em escritório de referência na área trabalhista.
+                    </p>
+                </div>
+            </div>
+        </section>
+        
+        <section id="atuacao-container">
+            <h2>Área de Atuação</h2>
+            <div class="sublinhado">
+                <div class="line"></div>
+            </div>
+            <div id="atuacao">
+                <div class="area-atuacao">
+                    <div id="processo-penal">
+                        <img src="img/logo_penal.jpg" alt="">
+                    </div>
+                    <div class="information">
+                        <p>
+                            Código penal
+                            é um conjunto de normas codificadas que tem o objetivo de determinar
+                            e regulamentar os atos considerados infrações penais,
+                            assim como definir as sanções correspondentes.
+                            É considerado um dos grandes códigos na tradição jurídica romano-germânica.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="area-atuacao">
+                    <div id="processo-adm">
+                        <img src="img/logo_adm.jpg" alt="">
+                    </div>
+                    <div class="information">
+                        <p>
+                            O Código Administrativo
+                            foi na tradição administrativista portuguesa um diploma legal que,
+                            reunia as normas referentes à organização administrativa do território
+                            e às competências,funcionamento e orgânica dos órgãos distritais e autárquicos.
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="area-atuacao">
+                    <div id="processo-divorcio">
+                        <img src="img/logo-divorcio.png" alt="">
+                    </div>
+                    <div class="information">
+                        <p>
+                            o divórcio é considerado um direito potestativo, que independe 
+                            de qualquer outro pré-requisito, podendo ser decretado antes de
+                            dirimida a partilha, nos moldes do art. 731 do Código de Processo Civil.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="contato-container">
+            <div class="contato">
+                <h2>Mande uma mensagem</h2>
+                <p>Envie a sua mensagem, em até 2 horas um membro entrará em contato</p>
+                <form id="contato-form">
+                    <div class="contato">
+                        <input type="text" id="name" placeholder="Digite seu nome">
+                    </div>
+                    <div class="contato">
+                        <input type="text" id="email" placeholder="Digite seu e-mial">
+                    </div>
+                    <textarea name="message" id="message" placeholder="Descreva seu problema..."></textarea>
+                </form>
+            </div>
+            <input type="submit" value="Enviar">
+        </section>
+    </main>
+
+</body>
+
+</html>
