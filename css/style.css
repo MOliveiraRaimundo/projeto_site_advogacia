@@ -1,0 +1,393 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+#navbar{
+    padding: 0.5rem 3rem;
+    background-color: #333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo img{
+    width:100px;
+}
+#navbar-links{
+    display: flex;
+    gap: 2rem;
+    text-transform: uppercase;
+}
+#navbar-links a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.4s;
+}
+#navbar-links a:hover{
+    color: #dabc0f;
+}
+#navbar-links li{
+    list-style: none;
+}
+.main-banner{
+    background-image: url(../img/banner-II.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 14rem 0;
+}
+.main-banner p{
+    font-size: 22px;
+    margin-left: 15px;
+    font-weight: bold;
+}
+.main-banner span{
+    font-size: 18px;
+    font-weight: bold;
+    margin: 15px;
+}
+#sobre{
+    background-color: #eee; 
+}
+#sobre h2{
+    color: #333;
+    text-align:center;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+.line{
+    border: 1px solid #333;
+    width: 100px;
+    margin: auto;
+}
+.equipe p{
+    flex-direction: column;
+    color: #333;
+    text-align: justify;
+    margin-top: 50px;
+    width: 40%;
+    word-spacing: normal;
+    line-height: 1.6em;
+}
+.equipe{
+    display: flex;
+    gap: 1rem;
+}
+#perfil-equipe img{
+    width: 520px;
+    height: 300px;
+    margin: 3rem;
+}
+
+/***MEMBROS****/
+.perfil{
+    display: flex;
+}
+.perfil-membros{
+    background-color: #333;
+}
+.perfil-membros h2{
+    color: #fff;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+}
+#linha{
+    border: 1px solid #fff;
+    width: 150px;
+    margin: auto;
+    margin-top: -8px;
+}
+#perfil-julio img{
+    width: 520px;
+    height: 300px;
+    margin: 3rem;
+}
+#perfil-advogada img{
+    width: 520px;
+    height: 300px;
+    margin: 3rem;
+}
+#description p{
+    text-align: justify;
+    margin-top: 118px;
+    font-size: 15px;
+    color: #fff; 
+    word-spacing: normal;
+    line-height: 1.6em;
+    width: 90%;
+}
+#description span{
+    color: #fff;
+    font-size: 20px;
+}
+
+/***ATUACAÇÃO****/
+#atuacao-container{
+    background-color: #eee;
+}
+#atuacao{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 3rem;
+    gap: 3rem;
+}
+#atuacao-container h2{
+    color: #333;
+    text-align: center;
+    font-size: 1.5rem;
+    margin-top: 2rem;
+    padding: 1rem;
+}
+#area-atuacao{
+    background-color: #eee;
+    width: 90%;
+}
+#processo-penal,
+#processo-adm,
+#processo-divorcio{
+    text-align: center;
+    margin-bottom: 20px;
+}
+#processo-penal img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    text-align: center;
+}
+#processo-adm img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+#processo-divorcio img{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+.information p{
+    text-align: justify;
+    line-height: 1.6em;
+    white-space: normal; 
+}
+/******FORMULARIO*********/
+.contato-container{
+    background-color: #333;
+    text-align: center;
+    padding: 1.5rem 0 2rem 0;
+}
+.contato h2{
+    color: #fff;
+    padding: 1rem;
+}
+#contato-form{
+    padding: 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+#contato-form label{
+    color: #fff;
+    font-size: 16px;
+    
+}
+.contato p{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+}
+.contato input{
+    width: 470px;
+    padding: 8px 40px;
+    background-color: #eee;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#contato-form textarea{
+    display: block;
+    margin: 0 auto 5px;
+    width: 470px;
+    height: 150px;
+    border-radius: 5px;
+    background-color: #eee;
+}
+.contato-container input[type="submit"]{
+    width: 200px;
+    padding: 10px 20px;
+    border: 1px solid #eee;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 auto;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.contato-container input[type="submit"]:hover{
+    background-color: #dabc0f;
+    color: #333;
+}
+
+/***footer***/
+footer{
+    padding: 1.5rem 1rem;
+    background-color: #333;
+}
+.footer-container{
+  /*  border-top: 1px solid #ccc;*/
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+#img-advg img{
+    width: 50%;
+    margin-top: 1rem;
+   
+}
+#localizacao{
+    color: #fff;
+    margin-left: -100px;
+
+}
+#localizacao h2{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+#icon-contatos{
+    display: flex;
+    gap: 2rem;
+    font-size: 2rem;
+}
+#icon-contatos li{
+    list-style: none;
+}
+#icon-contatos a{
+    text-decoration: none;
+    color: #fff;
+}
+
+/*RESPONSIVIDADE*/
+@media(max-width:1440px){
+    .equipe p{
+        width: 100%;
+        font-size: 20px;
+        line-height: 1.6rem;
+        padding-right: 30px;
+    }
+    #description p{
+        font-size: 20px;
+        line-height: 1.6em;
+        
+        padding-right: 30px;
+    }
+}
+@media(max-width:768px){
+    .equipe {
+        flex-direction: column;
+        text-align: center;
+    }
+    .equipe p{
+       width: 100%;
+       padding: 0 40px;
+       margin-top: 0;
+       margin-bottom: 2rem;
+    }
+    .perfil {
+        flex-direction: column; 
+    }
+    #perfil-julio img{
+       margin: 30px 100px;
+    }
+    #perfil-advogada img{
+        margin: 30px 100px
+    }
+    #description{
+        margin-top: -140px;
+        margin-left: 20px;
+        margin-bottom: 2rem;
+    }
+    footer{
+        border-top: 1px solid #bbb;
+    }
+    #localizacao h2{
+        margin-right: 60px;
+    }
+    #localizacao p{
+        text-align: center;
+        margin-right: 60px;
+    }
+    #contatos{
+        padding-right: 20px;
+    }
+
+}
+@media(max-width:425px){
+    html,body{
+        overflow-x: hidden;
+    }
+    #navbar{
+        padding: 1rem 0;
+        justify-content: center;
+    }
+    #navbar-links li{
+        font-size: 11px;
+    }
+    #logo img  {
+       width: 0;
+    }
+    .main-banner p{
+        font-size: 18px;
+        margin-top: -130px;
+        width: 50%;
+    }
+    #perfil-equipe img{
+        width: 100%;
+        margin-left: 0;
+    }
+    #perfil-julio img{
+        width: 100%;
+        margin-left: 0;
+    }
+    #perfil-advogada img{
+        width: 100%;
+        margin-left: 0;
+    }
+    #atuacao{
+        flex-direction: column;
+    }
+    .contato-container{
+        width: 100%;
+    }
+    .contato input{
+        width: 100%;
+    }
+    #contato-form textarea {
+        width: 100%;
+    }
+    .contato-container input[type="submit"] {
+        width: 150px;
+        padding: 10px 20px;
+    }
+    .footer-container{
+        flex-direction: column;
+    }
+    #img-advg{
+        width: 60%;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    #localizacao h2{
+        margin-left: 150px; 
+    }
+    #localizacao p{
+        margin-left: 150px;
+        
+        margin-bottom: 2rem;
+    }
+}
