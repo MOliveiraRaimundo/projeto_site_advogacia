@@ -239,7 +239,7 @@ footer{
     background-color: #333;
 }
 .footer-container{
-  /*  border-top: 1px solid #ccc;*/
+    border-top: 1px solid #ccc;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -287,6 +287,25 @@ footer{
         padding-right: 30px;
     }
 }
+@media(max-width:1024px){
+    #perfil-equipe img {
+        width: 520px;
+        height: 398px;
+        margin: 3rem 2rem; 
+    }
+    .equipe p{
+        margin-bottom: 3rem;
+    }
+    #description{
+        margin-top: -80px;
+    }
+    footer{
+        border-top: 1px solid #ccc;
+    }
+    #localizacao{
+        margin-left: -200px;
+    }
+}
 @media(max-width:768px){
     .equipe {
         flex-direction: column;
@@ -316,11 +335,11 @@ footer{
         border-top: 1px solid #bbb;
     }
     #localizacao h2{
-        margin-right: 60px;
+        margin-right: 10px;
     }
     #localizacao p{
         text-align: center;
-        margin-right: 60px;
+        margin-right: 20px;
     }
     #contatos{
         padding-right: 20px;
@@ -358,6 +377,9 @@ footer{
         width: 100%;
         margin-left: 0;
     }
+    #description{
+        width: 100%;
+    }
     #atuacao{
         flex-direction: column;
     }
@@ -383,10 +405,10 @@ footer{
         margin-bottom: 2rem;
     }
     #localizacao h2{
-        margin-left: 150px; 
+        margin-left: 200px; 
     }
     #localizacao p{
-        margin-left: 150px;
+       margin-left: 245px;
         
         margin-bottom: 2rem;
     }
